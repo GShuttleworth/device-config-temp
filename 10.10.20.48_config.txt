@@ -1,9 +1,8 @@
-
 Building configuration...
 
-Current configuration : 6866 bytes
+Current configuration : 6814 bytes
 !
-! Last configuration change at 18:47:55 UTC Tue Feb 16 2021 by developer
+! Last configuration change at 16:19:33 UTC Wed Feb 17 2021 by cisco
 !
 version 16.11
 service timestamps debug datetime msec
@@ -141,7 +140,7 @@ crypto pki certificate chain SLA-TrustPoint
   D697DF7F 28
   	quit
 !
-license udi pid CSR1000V sn 9BFPTK7GTBJ
+license udi pid CSR1000V sn 917CLAXZENS
 license boot level ax
 diagnostic bootup level minimal
 !
@@ -208,7 +207,6 @@ ip http server
 ip http authentication local
 ip http secure-server
 ip route 0.0.0.0 0.0.0.0 GigabitEthernet1 10.10.20.254
-ip route 1.1.1.0 255.255.255.0 GigabitEthernet1
 !
 ip ssh rsa keypair-name ssh-key
 ip ssh version 2
